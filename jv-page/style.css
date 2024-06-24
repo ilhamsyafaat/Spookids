@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'halloween';
+  src: url('./fonts/Halloween_Too.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'fears';
+  src: url('./fonts/DK_Face_Your_Fears.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'happyHalloween';
+  src: url('./fonts/HappyHalloween.ttf') format('truetype');
+}
+
+.happyHalloween {
+  font-family: 'happyHalloween';
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.headline {
+  font-family: 'happyHalloween';
+}
+
+.sub-headline {
+  font-family: 'happyHalloween';
+}
+
+.burger {
+  display: none;
+  transition: 0.3s ease-out;
+}
+
+.show {
+  display: flex;
+  transition: 0.3s ease-out;
+}

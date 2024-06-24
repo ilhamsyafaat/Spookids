@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: halloween;
+    src: url(../fonts/HappyHalloween.ttf);
+}
+
+.halloween {
+    font-family: halloween;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.montserrat-light {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.montserrat-regular {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-medium {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.montserrat-semibold {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.montserrat-bold {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.montserrat-extrabold {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+@media (max-width: 576px) {
+
+    /*HP*/
+    .font-3-5rem {
+        font-size: 2.5rem;
+    }
+
+    .font-3rem {
+        font-size: 2rem;
+    }
+
+    .font-2-5rem {
+        font-size: 1.8rem;
+    }
+
+    .font-2rem {
+        font-size: 1.5rem;
+    }
+
+    .font-0-8rem {
+        font-size: 0.9rem;
+    }
+
+    .font-1rem {
+        font-size: 1rem;
+    }
+
+    .font-1-2rem {
+        font-size: 1.1rem;
+    }
+
+    .font-1-5rem {
+        font-size: 1.2rem;
+    }
+
+    .bg-data {
+        background-size: cover;
+    }
+
+    .bg-problem {
+        background-size: cover;
+    }
+}
+
+@media (min-width: 768px) {
+
+    /*Laptop*/
+    .font-3-5rem {
+        font-size: 3.5rem;
+    }
+
+    .font-3rem {
+        font-size: 3rem;
+    }
+
+    .font-2-5rem {
+        font-size: 2.5rem;
+    }
+
+    .font-2rem {
+        font-size: 2rem;
+    }
+
+    .font-1rem {
+        font-size: 1rem;
+    }
+
+    .font-0-8rem {
+        font-size: 0.8rem;
+    }
+
+    .font-1-2rem {
+        font-size: 1.2rem;
+    }
+
+    .font-1-5rem {
+        font-size: 1.5rem;
+    }
+
+    .bg-data {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .bg-problem {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.bg-1 {
+    background-color: rgb(49, 46, 53);
+    background-image: url(../img/bg.png);
+    background-size: cover;
+}
+
+.bg-2 {
+    background-color: #F3E9D3;
+    background-image: url(../img/bg-black.png);
+    background-size: cover;
+}
+
+.bg-3 {
+    background-color: #F3E9D3;
+    background-image: url(../img/bg-white.png);
+    background-size: cover;
+}
+
+.bg-4 {
+    background-color: #FC9850;
+    background-image: url(../img/bg-black2.png);
+    background-size: cover;
+}
+
+.bg-5 {
+    background-color: rgb(49, 46, 53);
+    background-image: url(../img/bg-white2.png);
+    background-size: cover;
+}
+
+.bg-data {
+    background-image: url(../img/card2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-card {
+    background-image: url(../img/card.png);
+    background-size: contain;
+}
+
+.bg-problem {
+    background-image: url(../img/card3.png);
+}
+
+.bg-step-1 {
+    background-color: #F3E9D3;
+    background-image: url(../img/bg-step.png);
+    background-size: cover;
+}
+
+.bg-step-2 {
+    background-color: #FC9850;
+    background-image: url(../img/bg-step2.png);
+    background-size: cover;
+}
+
+.cta:hover {
+    transform: scale(1.1);
+}
+
+.cta {
+    transition: transform 0.3s ease;
+}
+
+.title-faq[open] summary {
+    background-color: #FC9850;
+    color: #312E35;
+}
+
+.title-faq[open] summary svg {
+    background-color: #FC9850;
+    color: #312E35;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.text-stroke {
+    text-shadow: -1px -1px 0 #312E35, 1px -1px 0 #312E35, -1px 1px 0 #312E35, 1px 1px 0 #312E35;
+}
